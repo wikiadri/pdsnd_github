@@ -138,6 +138,7 @@ def user_stats(df,city):
     print('-'*40)
 
 def display_data(df):
+    "Function to display information"
     lines = 0
     raw_data = input("Would you like to see 5 lines raw data? yes or no: ").lower()
 
