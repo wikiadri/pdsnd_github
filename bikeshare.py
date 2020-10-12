@@ -151,6 +151,7 @@ def display_data(df):
             break    
 
 def main():
+    "Main function that use all the functions previously described"
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
